@@ -1,0 +1,56 @@
+.header-bkgd-img {
+	min-height: 400px;
+	background-position: center;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	}
+
+.name-search {
+	padding-top: 2em;
+	
+	@media ( min-width: 1025px ) {
+		padding-top: 6em;
+	}
+
+	h1 {
+		margin-top: 0px;
+		text-align: center;
+
+		@media ( min-width: 1025px ) {
+			padding-left: 40px;
+			text-align: left;
+		}
+
+		letter-spacing: 3px;
+	}
+
+	h3 {
+		@media ( max-width: 1024px ) {
+			text-align: center;
+			padding-left: 0px;
+			color: $white;
+			font-weight: bold;
+			text-shadow: 0px 2px 14px $black;
+		}
+
+		margin-top: 0px;
+		padding-left: 40px;
+		font-size: 15px;
+		letter-spacing: 3px;
+	}
+
+	#searchform {
+		text-align: center;
+		padding-top: 17em;
+
+		@media ( min-width: 1025px ) {
+			float: right;
+			padding-top: 0px;
+			padding-right: 40px;
+		}
+	}
+}
+
