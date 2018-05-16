@@ -1,8 +1,13 @@
 body {
-	font-family: 'Oswald', 'Arsenal';
+	font-family: $primaryFont;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	background-color: $light-grey;
 	padding: 30px;
+}
+
+h1, h2, h3, h4 {
+	font-family: $secondaryFont;
 }
 
 hr {
